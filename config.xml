@@ -16,13 +16,13 @@
   </author>
   
   <!--Personaliza la aplicacion y plataforma -->
-  <preference name="orientation"         value="default"/>
-  <!-- <prederence name="orientation"         value="portrait"/>
-  <preference name="orientation"          value="landscape"/> -->
-  <preference name="target-device"         value="universal"/>
-  <preference name="fullscreen"            value="true"/>
-  <preference name="android-installLocation"    value="auto"/>
-  <preference name="permissions"  value="INTERNET"/>
+  <preference name="orientation"value="default"/>
+  <!-- <prederence name="orientation"value="portrait"/>
+  <preference name="orientation"value="landscape"/> -->
+  <preference name="target-device"value="universal"/>
+  <preference name="fullscreen"value="true"/>
+  <preference name="android-installLocation"value="auto"/>
+  <preference name="permissions"value="INTERNET"/>
   
   <!-- Plugins -->
   <!-- Core plugins -->
