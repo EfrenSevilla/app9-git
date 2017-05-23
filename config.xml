@@ -11,18 +11,18 @@
    Muestra la ubicacion del dipositivo de acuerdo al GPS
   </description>
   
-  <author href="https://build.phonegap.com" email="lulisevilla07@gmail.com">
+ <author href="https://build.phonegap.com" email="efrenmolina8@gmail.com">
   Efren Ulises Molina Sevilla 4 H
   </author>
   
   <!--Personaliza la aplicacion y plataforma -->
-  <preference name="orientation"value="default"/>
-  <!-- <prederence name="orientation"value="portrait"/>
-  <preference name="orientation"value="landscape"/> -->
-  <preference name="target-device"value="universal"/>
-  <preference name="fullscreen"value="true"/>
-  <preference name="android-installLocation"value="auto"/>
-  <preference name="permissions"value="INTERNET"/>
+  <preference name="orientation" value="default"/>
+  <!-- <prederence name="orientation" value="portrait"/>
+  <preference name="orientation" value="landscape"/> -->
+  <preference name="target-device" value="universal"/>
+  <preference name="fullscreen" value="true"/>
+  <preference name="android-installLocation" value="auto"/>
+  <preference name="permissions" value="INTERNET"/>
   
   <!-- Plugins -->
   <!-- Core plugins -->
@@ -31,6 +31,7 @@
  <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
  
  <plugin name="cordova-plugin-geolocation" source="npm" />
+ <!-- Third party plugins -->
  
  <!-- Colocar icono app -->
  
