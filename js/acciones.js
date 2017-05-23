@@ -28,18 +28,18 @@ function getPosition(){
 	
 	function onSuccess(position){
 	  
-	  alert('Latitude:'   + position.coords.latitud +  '\n' +
+	  alert('Latitude:'   + position.coords.latitude +  '\n' +
 	  'Longitude:'      + position.coords.longitude + '\n' +
-	  'Altitude:'     + position.coords.altittude + '\n' +
+	  'Altitude:'     + position.coords.altitude + '\n' +
 	  'Accuracy:'      + position.coords.accuracy + '\n' +
-	  'Altitude Accuracy:' + position.coords.altitudeaccuracy + '\n' +
+	  'Altitude Accuracy:' + position.coords.altitudeAccuracy + '\n' +
 	  'Heading:'       + position.coords.heading + '\n' +
 	  'Speed:'        + position.coords.speed + '\n' +
 	  'Timestamp:'      + position.timestamp + '\n');
 	};
 	
 	function onError(error){
-		alert('code:' +error.code   + '\n' + 'massage:' + error.massage + '\n');
+		alert('code:' +error.code   + '\n' + 'message:' + error.message + '\n');
 	}
 }
 
@@ -60,7 +60,7 @@ function watchPosition(){
 	    $('#altitud').html(position.coords.altitude);
 		$('#accuracy').html(position.coords.accuracy);
 		$('#aaccuracy').html(position.coords.altitudeAccuracy);
-		$('#headingg').html(position.coords.headingg);
+		$('#headingg').html(position.coords.heading);
 		$('#speed').html(position.coords.speed);
 		$('#timestamp').html(position.timestamp);
 	};
